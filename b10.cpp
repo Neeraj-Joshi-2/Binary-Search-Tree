@@ -7,7 +7,7 @@ struct Node
     int data;
     Node *left, *right;
 };
-
+ 
 Node *newNode(int data)
 {
     Node *node = new Node;
